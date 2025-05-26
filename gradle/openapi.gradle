@@ -1,0 +1,9 @@
+openApiGenerate {
+    generatorName = "spring"
+    modelNameSuffix = "Dto"
+    configOptions = [
+            useTags: "true",
+            useBeanValidation: "true",
+            performBeanValidation: "true"
+    ]
+}
